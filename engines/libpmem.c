@@ -46,7 +46,7 @@
  *
  * See examples/libpmem.fio for complete usage example.
  */
-
+#define PMEM_IS_PMEM_FORCE = 1
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
